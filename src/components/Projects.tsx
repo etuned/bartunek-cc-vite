@@ -18,6 +18,9 @@ export default function Projects() {
                     <Image src={Character} width="auto" height={300} placeholder />
                 </ContentBox>
             </Stack>
+            <Container size="sm">
+                <Text>Check back soon. My projects will be added soon!.</Text>
+            </Container>
         </Group>
     )
 }

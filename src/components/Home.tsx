@@ -29,8 +29,8 @@ export default function Home() {
                     <Image src={Character} width="auto" height={200} placeholder />
                 </ContentBox>
             </Group>
-            <Container>
-                <Button onClick={()=>handleThrowError("Something went wrong!")}>Click to exploded the website</Button>
+            <Container size="sm">
+                <Text>Check back soon as this site is in progress.</Text>
             </Container>
         </Group>
     )
