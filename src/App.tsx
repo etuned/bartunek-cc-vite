@@ -3,7 +3,7 @@ import {
   MantineProvider, 
   AppShell, 
   Header, 
-  Grid, 
+  Footer, 
   Text, 
   Group, 
   Container, 
@@ -43,7 +43,7 @@ export default function App() {
     >
       <AppShell
         header={
-          <Header py={20}  height={65}>
+          <Header style={{border: "none"}} py={20}  height={65}>
             <Container size="lg">
               <Group position='left'>
                   <Anchor
@@ -77,6 +77,13 @@ export default function App() {
                 </Group>
             </Container>
             </Header>
+        }
+        footer={
+          <Footer style={{border: "none"}} height={30}>
+            <Group position='center'>
+              <Text>Built 2022 by Edwin Bartunek, all rights reserved</Text>
+            </Group>
+          </Footer>
         }
       >
         <Container>
