@@ -19,7 +19,7 @@ export default function Projects() {
                 </ContentBox>
             </Stack>
             <Container size="sm">
-                <Text>Check back soon. My projects will be added soon!.</Text>
+                <Text>Check back soon. My projects will be added soon!</Text>
             </Container>
         </Group>
     )
